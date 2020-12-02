@@ -1,0 +1,3 @@
+# lambda-crud
+
+Just a place to try out things with AWS Lambda.  Sheesh, finally getting down with the kids after all those years wrangling Magento...
