@@ -57,26 +57,26 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
+  home:
+    handler: api/handler.home
     events:
       - http:
           path: /
           method: get
-  imageResize:
-    handler: handler.imageResize
+  hello:
+    handler: api/handler.hello
     events:
       - http:
-          path: /imageResize
+          path: /hello
           method: get
-  foobar:
-    handler: foobar.info
+  echo:
+    handler: api/echo.info
     events:
       - http:
           path: /info
           method: get
 
-          #    The following are a few example events you can configure
+#    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
 #      - websocket: $connect
