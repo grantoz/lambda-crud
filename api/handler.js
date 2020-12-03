@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.home = async event => {
+module.exports.home = async () => {
   return {
     statusCode: 200,
     body: JSON.stringify(
